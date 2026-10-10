@@ -1,0 +1,73 @@
+{
+  "intents": [
+    {
+      "name": "recommendation",
+      "examples": [
+        "recommend products for me",
+        "suggest best items",
+        "show products under my budget",
+        "what should I buy",
+        "find fashion products",
+        "show me similar products",
+        "best product for daily use"
+      ]
+    },
+    {
+      "name": "budget",
+      "examples": [
+        "products under 1000",
+        "cheap items",
+        "affordable fashion",
+        "low price products",
+        "below 2000",
+        "budget friendly items"
+      ]
+    },
+    {
+      "name": "order_help",
+      "examples": [
+        "how to order",
+        "where is my order",
+        "order status",
+        "delivery time",
+        "shipping details",
+        "track my order"
+      ]
+    },
+    {
+      "name": "payment_help",
+      "examples": [
+        "payment method",
+        "cash on delivery",
+        "online payment",
+        "how can I pay",
+        "cod available",
+        "payment options"
+      ]
+    },
+    {
+      "name": "greeting",
+      "examples": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening",
+        "help me"
+      ]
+    }
+  ],
+  "shopping_terms": {
+    "fashion": ["cloth", "clothes", "kurti", "tshirt", "shirt", "dress", "wear", "style"],
+    "beauty": ["cream", "acne", "skin", "aloe", "face", "beauty", "care"],
+    "budget": ["cheap", "affordable", "low", "budget", "discount", "offer"],
+    "premium": ["premium", "best", "quality", "top", "special"]
+  },
+  "reply_templates": {
+    "recommendation": "I matched your request with ShopHub products using the trained recommendation model.",
+    "budget": "I found budget friendly products that fit your price request.",
+    "order_help": "You can place an order from the product detail page and check updates in My Orders.",
+    "payment_help": "ShopHub supports Cash on Delivery, and online payment is shown as a demo option.",
+    "greeting": "Hi, I am your ShopHub AI assistant. Tell me what you want to buy."
+  }
+}

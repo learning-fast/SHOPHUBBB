@@ -1,0 +1,5 @@
+{
+    "chat.useClaudeMdFile": false,
+    "claudeCode.disableLoginPrompt": true,
+    "claudeCode.hideOnboarding": true
+}
